@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "com.bodrumextra.bodrumextra"
+    version   = "1.0.0">
+
+<name>IkiNokta Mobile</name>
+
+<description>
+A mobile app for IkiNokta.
+</description>
+
+<author href="http://beyoglu.harita.ikinokta.com/" email="daron@darondedeoglu.com">
+Daron Dedeoğlu
+</author>
+<icon src="images/icon.jpg" />
+<icon src="images/bbicon.jpg" gap:platform="blackberry" />
+<gap:splash src="images/splash.png" />
+<access origin="*" />
+<access origin="http://api.ikinokta.com/v3/TwoPointsApi.php?apikey=c32eddb948842b1251afa1be100012f0" />
+<access origin="http://beyoglu.harita.ikinokta.com/Extension.php?apikey=c32eddb948842b1251afa1be100012f0" />
+<access origin="http://beyoglu.harita.ikinokta.com/tiny_mce/tiny_mce.js" />
+<preference name="disable-cursor" value="true" />
+
+</widget>
